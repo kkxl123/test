@@ -27,7 +27,7 @@ int main(void){
         printf("The pid of father is: %d\n",getpid());
         printf("The pid of father`s child is: %d\n", pid);
     }
-    sleep(1);   // 必要时请加入这行，便于好分析结果
+    sleep(1);   
     printf("After fork, program exiting...\n");
     exit(0);
 }
